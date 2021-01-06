@@ -19,14 +19,16 @@ const Admin=()=>{
 
     return(
         <div className="admin" >
+            <h1>Admin View</h1>
+            <h1>Details of the registered users</h1>
             <table style={{marginTop:"20px" ,marginLeft:'auto',marginRight:'auto',width:'80%'}}>
                 <thead>
                 <tr>
-                    <th>Firstname</th>
-                    <th>Lastname</th>
-                    <th>Address</th>
-                    <th>Mobile No.</th>
-                    <th>Aadhaar</th>
+                    <th> <h2> Firstname</h2></th>
+                    <th><h2>Lastname</h2></th>
+                    <th><h2>Address</h2></th>
+                    <th><h2>Mobile No.</h2></th>
+                    <th><h2>Aadhaar</h2></th>
                 </tr>
                 </thead>
                 <tbody>

@@ -39,13 +39,14 @@ const Homepage=()=>{
 
 
     return(
-        <div className="homepage" style={{display:'flex' }}>
-            <form onSubmit={handleSubmit} style={{ marginTop:'10%',width:'100%', display:'flex', flexDirection:'column' , alignItems:'center'}} >
-                <input type="text" name='firstName'style={{ width:'50%', margin:'5px'}} placeholder='First Name' value={firstName} onChange={handleChange} /> 
-                <input type="text" name='lastName'style={{ width:'50%', margin:'5px'}} placeholder='Last Name' value={lastName} onChange={handleChange} /> 
-                <input type="text" name='address' style={{ width:'50%', margin:'5px'}} placeholder='Address' value={address} onChange={handleChange} /> 
-                <input type='number' name='mobileNumber' style={{ width:'50%', margin:'5px'}} placeholder='Mobile Number' value={mobileNumber} onChange={handleChange} /> 
-                <input type="number" name='adhaar' style={{ width:'50%', margin:'5px'}} placeholder='Aadhaar' value={adhaar} onChange={handleChange} /> 
+        <div className="homepage" >
+            <h1 >Please enter your details </h1>
+            <form onSubmit={handleSubmit} style={{ marginTop:'5%',width:'100%', display:'flex', flexDirection:'column' , alignItems:'center'}} >
+                <input type="text" name='firstName'style={{ width:'40%', margin:'5px'}} placeholder='First Name' value={firstName} onChange={handleChange} /> 
+                <input type="text" name='lastName'style={{ width:'40%', margin:'5px'}} placeholder='Last Name' value={lastName} onChange={handleChange} /> 
+                <input type="text" name='address' style={{ width:'40%', margin:'5px'}} placeholder='Address' value={address} onChange={handleChange} /> 
+                <input type='number' name='mobileNumber' style={{ width:'40%', margin:'5px'}} placeholder='Mobile Number' value={mobileNumber} onChange={handleChange} /> 
+                <input type="number" name='adhaar' style={{ width:'40%', margin:'5px'}} placeholder='Aadhaar' value={adhaar} onChange={handleChange} /> 
                 <button type='submit'>Submit</button>
             </form>
         </div>

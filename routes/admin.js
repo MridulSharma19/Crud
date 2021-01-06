@@ -13,8 +13,8 @@ router.post('/login', (req,res)=>{
     Admin.findOne({ email }).then(user => {
       // Check for user
       if (!user) {
-        errors.email = 'User not found';
-        return res.status(404).json(errors);
+        const error = 'User not found';
+        return res.status(404).json(error);
       }else{
         bcrypt.compare(password, user.password).then(isMatch => {
           if (isMatch) {
