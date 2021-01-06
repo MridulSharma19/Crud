@@ -1,0 +1,46 @@
+.admin-login {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.admin-login-heading {
+  color: #0b214a;
+}
+
+.admin-login-form {
+  box-sizing: border-box;
+  border: 2px solid #0b214a;
+  border-radius: 4px;
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px 40px;
+  background-color: white;
+}
+
+input {
+  background-color: #f0f1f3;
+  border: 0 solid transparent;
+  border-radius: 4px;
+  width: 100%;
+  height: 32px;
+  margin: 6px;
+  padding: 6px 16px;
+  color: #0b214a;
+}
+
+.admin-login-submit {
+  margin: 6px;
+  background-color: #0b214a;
+  width: 50%;
+  height: 42px;
+  color: white;
+  border: 0px solid #0b214a;
+  border-radius: 4px;
+  font-size: 1em;
+  font-weight: bold;
+  margin-top: 24px;
+}

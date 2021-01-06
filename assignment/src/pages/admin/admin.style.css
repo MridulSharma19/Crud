@@ -1,0 +1,37 @@
+.admin {
+  overflow: auto;
+  height: 100vh;
+}
+
+.admin-heading {
+  color: #0b214a;
+}
+
+.admin-subheading {
+  color: #0b214a;
+  margin-bottom: 32px;
+}
+
+.admin-table {
+  background-color: white;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th {
+  color: white;
+  background-color: #0b214a;
+}
+
+td {
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #f0f1f3;
+}

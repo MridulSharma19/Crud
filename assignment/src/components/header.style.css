@@ -1,0 +1,18 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  background-color: #35a0ef;
+  color: white;
+}
+
+.header-brand {
+  margin: 0 30px;
+  align-self: flex-start;
+  text-decoration: none;
+  color: white;
+}
+.header-admin-link {
+  color: white;
+  align-self: flex-end;
+  margin: 0 30px;
+}
