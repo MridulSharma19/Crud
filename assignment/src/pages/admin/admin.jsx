@@ -22,13 +22,18 @@ const Admin = () => {
     <div className="admin">
       <h1 className="admin-heading">Admin View</h1>
       <h1 className="admin-subheading">Details of the registered users</h1>
-      <table
-        className="admin-table"
+      <div className="tab"
         style={{
           marginTop: "20px",
           marginLeft: "auto",
-          marginRight: "auto",
-          width: "80%",
+          marginRight: "auto",  
+          overflowX: 'auto',
+          width: "80%",}}
+      >
+      <table
+        className="admin-table"
+        style={{
+          width: "100%",
         }}
       >
         <thead>
@@ -65,6 +70,7 @@ const Admin = () => {
             : null}
         </tbody>
       </table>
+      </div>
     </div>
   );
 };
