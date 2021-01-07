@@ -13,6 +13,7 @@
 }
 .header-admin-link {
   color: white;
+  text-decoration: none;
   align-self: flex-end;
   margin: 0 30px;
 }
