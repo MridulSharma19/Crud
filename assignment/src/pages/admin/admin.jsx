@@ -28,6 +28,7 @@ const Admin = () => {
           marginLeft: "auto",
           marginRight: "auto",  
           overflowX: 'auto',
+          boxShadow:'10px 10px 20px' ,
           width: "80%",}}
       >
       <table
