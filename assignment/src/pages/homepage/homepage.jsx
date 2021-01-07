@@ -38,8 +38,10 @@ const Homepage = () => {
     }
     try {
       await axios.post("/info", info);
+      alert('Successfully Submitted')
     } catch (err) {
       console.log(err);
+      alert('Submission failed')
     }
     setInfo({
       firstName: "",
